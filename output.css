@@ -1,0 +1,11 @@
+.grid-X, .grid-Y, .grid-Z {
+}
+
+@supports (grid-template-rows: subgrid) {
+  .grid-X, .grid-Y, .grid-Z {
+  }
+
+  , ,  {
+  }
+}
+

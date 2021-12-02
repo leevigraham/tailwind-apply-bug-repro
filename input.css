@@ -1,0 +1,19 @@
+@tailwind components;
+
+@layer components {
+
+    .grid--cards {
+    }
+
+    .grid-X,
+    .grid-Y,
+    .grid-Z {
+        @apply grid--cards;
+    }
+
+    @supports (grid-template-rows: subgrid) {
+        .grid--cards {}
+        .some-other-rule {}
+    }
+}
+
